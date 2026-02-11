@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════
+📝 CUSTOMIZATION TEMPLATE
+═══════════════════════════════════════════════════════════
+
+Fill in this template with your custom content, then copy the values
+into the appropriate files as described in the README.
+
+-------------------------------------------------------------------
+SECTION 1: IMAGES FOR EACH STAGE (6 images needed)
+-------------------------------------------------------------------
+
+Stage 0 (Initial): https://i.imgur.com/YOUR_IMAGE_1.jpg
+Stage 1 (1st No):  https://i.imgur.com/YOUR_IMAGE_2.jpg
+Stage 2 (2nd No):  https://i.imgur.com/YOUR_IMAGE_3.jpg
+Stage 3 (3rd No):  https://i.imgur.com/YOUR_IMAGE_4.jpg
+Stage 4 (4th No):  https://i.imgur.com/YOUR_IMAGE_5.jpg
+Stage 5 (5th No):  https://i.imgur.com/YOUR_IMAGE_6.jpg
+
+💡 Tips:
+- Use romantic, cute, or funny images
+- All images should be square (400x400px recommended)
+- Upload to Imgur, Cloudinary, or use Unsplash
+- You can use the default Unsplash images if you prefer
+
+-------------------------------------------------------------------
+SECTION 2: MESSAGES FOR EACH STAGE (6 messages needed)
+-------------------------------------------------------------------
+
+Stage 0 Message: I promise to make every day special! 💕
+
+Stage 1 Message: Are you sure? I'll bring you coffee every morning! ☕
+
+Stage 2 Message: Think about all the cuddles we'll share! 🤗
+
+Stage 3 Message: I'll always be there for you! 🌟
+
+Stage 4 Message: Please? You're my everything! 💖
+
+Stage 5 Message: This is your last chance to say no... but why would you? 😊
+
+💡 Tips:
+- Keep them personal and sweet
+- Use emojis to add personality
+- Make them progressively more persuasive
+- Keep them under 100 characters for best display
+
+-------------------------------------------------------------------
+SECTION 3: BENEFITS/PROMISES (Add as many as you want!)
+-------------------------------------------------------------------
+
+Benefit 1: Icon: 💝  Text: Unlimited Love
+Benefit 2: Icon: 🤗  Text: Always Support
+Benefit 3: Icon: 💖  Text: Total Care
+Benefit 4: Icon: 🔒  Text: No Betrayal
+Benefit 5: Icon: 🌟  Text: Endless Adventures
+Benefit 6: Icon: 😊  Text: Daily Smiles
+Benefit 7: Icon: 🎁  Text: Surprise Gifts
+Benefit 8: Icon: 🌈  Text: Colorful Memories
+Benefit 9: Icon: 🎵  Text: Shared Playlists
+Benefit 10: Icon: 🍕 Text: Food Adventures
+
+Add more below:
+Benefit 11: Icon: ___  Text: _________________
+Benefit 12: Icon: ___  Text: _________________
+Benefit 13: Icon: ___  Text: _________________
+Benefit 14: Icon: ___  Text: _________________
+Benefit 15: Icon: ___  Text: _________________
+
+💡 Tips:
+- Add 10-15 benefits for best visual effect
+- Use fun emojis that match the promise
+- Be creative - add inside jokes or personal promises
+- Keep text short (2-4 words each)
+
+-------------------------------------------------------------------
+SECTION 4: COUPON CUSTOMIZATION (Optional)
+-------------------------------------------------------------------
+
+Main Offer: Unlimited Love
+Details: with Kisses 💋 & Cuddles 🤗
+Validity: LIFETIME ♾️
+Coupon Code: 4EVER&ALWAYS
+Footer Text: Non-transferable • Terms: Just love me back
+
+💡 Tips:
+- Keep the main offer short and sweet
+- The coupon code can be a date, inside joke, or phrase
+- Make it personal and meaningful
+
+═══════════════════════════════════════════════════════════
+🎨 COLOR CUSTOMIZATION (Advanced - Optional)
+═══════════════════════════════════════════════════════════
+
+If you want to change the color scheme:
+
+YES Button (Green): #00e676
+NO Button (Red): #ff1744
+Primary Color (Main pink/red): #ff1744
+Secondary Color (Light pink): #ff4081
+
+Popular Color Schemes:
+- Classic Valentine: Keep defaults (green YES, red NO, pink theme)
+- Purple Love: YES #9c27b0, NO #ba68c8
+- Blue Romance: YES #2196f3, NO #64b5f6
+
+═══════════════════════════════════════════════════════════
+📋 HOW TO USE THIS TEMPLATE
+═══════════════════════════════════════════════════════════
+
+1. Fill in all sections above with your custom content
+2. Open script.js and replace the stageImages array
+3. In the same file, replace the stageMessages array
+4. Open success.js and replace the benefits array
+5. (Optional) Edit success.html for coupon customization
+6. (Optional) Edit styles.css for color changes
+7. Test locally by opening index.html in browser
+8. Upload to GitHub and enable Pages
+9. Share the link with your Valentine! 💕
+
+Need help? Check README.md for detailed instructions!
