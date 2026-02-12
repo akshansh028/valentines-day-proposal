@@ -134,7 +134,7 @@ function startConfetti() {
     
     // 1. Path to the image you uploaded to GitHub
     // Make sure the filename matches exactly!
-    const imageUrl = 'final-coupon.png'; 
+    const imageUrl = 'final-coupon.jpeg'; 
     
     const originalText = downloadBtn.textContent;
     downloadBtn.textContent = '⏳ Downloading...';
