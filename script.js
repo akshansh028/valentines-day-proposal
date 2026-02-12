@@ -4,20 +4,20 @@
 
 // Images for each stage (0-5)
 const stageImages = [
-    'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop', // Stage 0
-    'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop', // Stage 1
-    'https://images.unsplash.com/photo-1529903446007-a196e3d28c86?w=400&h=400&fit=crop', // Stage 2
-    'https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?w=400&h=400&fit=crop', // Stage 3
-    'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=400&fit=crop', // Stage 4
-    'https://images.unsplash.com/photo-1573865526739-10c1d3a1f0e0?w=400&h=400&fit=crop'  // Stage 5
+    './pics/forehead kiss.jpg', // Stage 0
+    './pics/drive trip.jpg', // Stage 1
+    './pics/cuddle.jpg', // Stage 2
+    './pics/care.jpg', // Stage 3
+    './pics/pls bb.jpg', // Stage 4
+    './pics/roses.jpg'  // Stage 5
 ];
 
 // Messages for each stage (0-5)
 const stageMessages = [
     "I promise to make every day special! 💕",
-    "Are you sure? I'll bring you coffee every morning! ☕",
+    "Are you sure? I'll take u ghummi shummi! ☕",
     "Think about all the cuddles we'll share! 🤗",
-    "I'll always be there for you! 🌟",
+    "I'll always be there to care for you! 🌟",
     "Please? You're my everything! 💖",
     "This is your last chance to say no... but why would you? 😊"
 ];
