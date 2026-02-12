@@ -129,40 +129,47 @@ function startConfetti() {
 }
 
 // Download coupon as image - FIXED for emoji rendering
-    function downloadCoupon() {
+    async function downloadCoupon() {
+    const coupon = document.getElementById('coupon');
     const downloadBtn = document.getElementById('downloadBtn');
     
-    // 1. Path to the image you uploaded to GitHub
-    // Make sure the filename matches exactly!
-    const imageUrl = 'final-coupon.jpeg'; 
-    
+    // Change button text
     const originalText = downloadBtn.textContent;
-    downloadBtn.textContent = '⏳ Downloading...';
+    downloadBtn.textContent = '⏳ Generating...';
     downloadBtn.disabled = true;
-
-    // 2. This part handles the actual download of your file
-    const link = document.createElement('a');
-    link.href = imageUrl;
-    link.download = 'Valentine_Coupon.png'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-
-    // 3. Reset the button and show success
-    setTimeout(() => {
-        downloadBtn.textContent = '✅ Downloaded!';
+    
+    try {
+        // Wait a moment for fonts to load
+        await document.fonts.ready;
         
-        // This triggers the heart animation if you have it
-        if (typeof showDownloadSuccess === "function") {
-            showDownloadSuccess();
-        }
+        // Use html2canvas with optimized settings for emojis
+        const canvas = await html2canvas(coupon, {
+            backgroundColor: '#ffffff',
+            scale: 3, // Higher scale for better emoji rendering
+            useCORS: true,
+            allowTaint: false,
+            logging: false,
+            letterRendering: true,
+            width: coupon.offsetWidth,
+            height: coupon.offsetHeight,
+            windowWidth: coupon.scrollWidth,
+            windowHeight: coupon.scrollHeight,
+            scrollX: 0,
+            scrollY: 0
+        });
         
-        setTimeout(() => {
-            downloadBtn.textContent = originalText;
-            downloadBtn.disabled = false;
-        }, 2000);
-    }, 1000);
-}            
+        // Convert canvas to PNG blob with high quality
+        canvas.toBlob((blob) => {
+            // Create download link
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'valentine-love-coupon.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            
             // Reset button
             downloadBtn.textContent = '✅ Downloaded!';
             setTimeout(() => {
